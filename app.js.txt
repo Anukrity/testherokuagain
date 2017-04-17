@@ -1,0 +1,19 @@
+var express=new express();
+var app=express();
+
+
+app.get('/',function(res,req){
+res.send('This is first page');
+res.end('page ended');
+});
+
+
+app.get('/login',function(res,req){
+res.send('This is login page');
+res.end('page ended');
+});
+
+
+app.listen(3000,function(){
+console.log('app listening on port' ,3000);
+});

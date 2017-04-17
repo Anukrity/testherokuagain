@@ -1,0 +1,14 @@
+{
+  "name": "newherokuapp",
+  "version": "1.0.0",
+  "description": "heroku test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "heroku"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
